@@ -32,7 +32,7 @@ gem "jbuilder"
 gem "bootstrap-sass", "3.4.1"
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
-
+gem "rails-controller-testing"
 # gem "bcrypt", "~> 3.1.7"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -43,7 +43,7 @@ gem "bootsnap", require: false
 
 # Use Sass to process CSS
 # gem "sassc-rails"
-
+gem "bcrypt", "3.1.13"
 # gem "image_processing", "~> 1.2"
 
 group :development, :test do
