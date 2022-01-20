@@ -35,7 +35,7 @@ gem "bootstrap-sass", "3.4.1"
 # gem "kredis"
 gem "rails-controller-testing"
 # gem "bcrypt", "~> 3.1.7"
-
+gem "faker", "2.1.2"
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
 
@@ -43,6 +43,8 @@ gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
+gem "bootstrap-will_paginate", "1.0.0"
+gem "will_paginate", "3.1.8"
 # gem "sassc-rails"
 gem "bcrypt", "3.1.13"
 # gem "image_processing", "~> 1.2"
